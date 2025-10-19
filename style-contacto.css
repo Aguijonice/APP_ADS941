@@ -1,0 +1,73 @@
+/* Estilos simples para página de contacto */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contacto-info {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.contacto-info h2 {
+    color: #c78c19;
+    text-align: center;
+}
+
+.contacto-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+
+.contacto-item h3 {
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.mapa {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.formulario-contacto {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, 
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #c78c19;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #9c6c14;
+}
